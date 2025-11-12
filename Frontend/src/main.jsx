@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 
 //for context
-import AuthContext from './context/authContext.jsx'
+import AuthContext from './context/AuthContext.jsx'
 import UserContext from './context/UserContext.jsx'
 
 //for routing
