@@ -4,7 +4,7 @@ import { MdYoutubeSearchedFor } from "react-icons/md";
 import { userDataContext } from "../context/UserContext";
 import { Navigate, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { authDataContext } from "../context/authContext";
+import { authDataContext } from "../context/AuthContext";
 
 //react icons
 import { FaShoppingCart } from "react-icons/fa";
