@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/vcart logo.png";
 import Google from "../assets/google.png";
 import { useNavigate } from "react-router-dom";
-import  { authDataContext } from "../context/authContext";
+import  { authDataContext } from "../context/AuthContext";
 import { useState } from "react";
 import axios from "axios"
 import { useContext } from "react";
