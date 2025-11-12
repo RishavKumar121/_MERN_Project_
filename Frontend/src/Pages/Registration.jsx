@@ -3,7 +3,7 @@ import Logo from "../assets/vcart logo.png";
 import Google from "../assets/google.png";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import  { authDataContext } from "../context/authContext";
+import  { authDataContext } from "../context/AuthContext";
 import { useState } from "react";
 import axios from "axios"
  import { toast } from 'react-toastify';
