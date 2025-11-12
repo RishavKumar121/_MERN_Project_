@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Sidebar from "../components/Sidebar";
 import { useState } from "react";
 import { useContext } from "react";
-import { authDataContext } from "../context/authContext";
+import { authDataContext } from "../context/AuthContext";
 import axios from "axios";
 import { useEffect } from "react";
 import { ImBin } from "react-icons/im";
