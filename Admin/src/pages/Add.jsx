@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import Nav from "../components/Nav";
 import Slidebar from "../components/Sidebar";
 import Upload from "../assets/upload.jpg";
-import { authDataContext } from "../context/authContext";
+import { authDataContext } from "../context/AuthContext";
 import axios from "axios";
  import {  toast } from 'react-toastify';
 import Loading from "../components/Loading";
