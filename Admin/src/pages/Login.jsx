@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import axios from "axios";
 import Google from "../assets/google.png";
 import Logo from "../assets/vcart logo.png";
-import { authDataContext } from "../context/authContext";
+import { authDataContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { adminDataContext } from "../context/AdminContext";
  import { toast } from 'react-toastify';
