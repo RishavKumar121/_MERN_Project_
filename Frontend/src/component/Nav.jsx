@@ -31,7 +31,7 @@ const Nav = () => {
    try {
     const response = await axios.get(serverUrl + "/api/auth/logout",{withCredentials:true})
     console.log(response.data)
-   
+   getCurrentUser()
     nevigate("/login")
     toast.success("User Logout Successfully")
    } catch (error) {
