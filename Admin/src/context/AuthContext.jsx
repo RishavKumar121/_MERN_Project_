@@ -4,7 +4,7 @@ export const authDataContext = createContext()
 
 const AuthContext = ({children}) => {
     
-    let serverURL = "https://ecommerce-mernbackend.onrender.com"
+    let serverURL = "https://mern-project-backend-4i19.onrender.com"
     let value = {
         serverURL
     }
