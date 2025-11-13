@@ -14,7 +14,7 @@ dotenv.config()
 const port = process.env.PORT
 const app = express()
 app.use(cors({
-    origin:["https://ecommerce-frontend-m4a8.onrender.com","https://ecommerce-admin-vup3.onrender.com"],
+    origin:["https://mern-project-frontend-n2b0.onrender.com","https://ecommerce-admin-vup3.onrender.com"],
     credentials:true
 }))
 
